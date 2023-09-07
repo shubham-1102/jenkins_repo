@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jenkins_package.NewTest2">
+      <class name="Technical_Assessment_02.TestNGCase_03">
         <methods>
-          <include name="f"/>
+          <include name="testCase3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- jenkins_package.NewTest2 -->
+      </class> <!-- Technical_Assessment_02.TestNGCase_03 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

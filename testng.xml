@@ -3,8 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-     <!-- <class name="jenkins_package.NewTest"/>-->
-      <class name="jenkins_package.NewTest2"/>
+     <!-- <class name="jenkins_package.NewTest"/>
+      <class name="jenkins_package.NewTest2"/>-->
+      <class name="Technical_Assessment_02.Login_and_logout_check"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

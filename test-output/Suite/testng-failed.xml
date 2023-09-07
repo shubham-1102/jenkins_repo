@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="jenkins_package.NewTest2">
+      <class name="data_provider.data_provider_class">
         <methods>
-          <include name="f"/>
+          <include name="LoginUsingJXL"/>
         </methods>
-      </class> <!-- jenkins_package.NewTest2 -->
+      </class> <!-- data_provider.data_provider_class -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

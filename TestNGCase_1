@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+ <groups>
+
+		<run>
+			<exclude name="Group2"></exclude>
+		</run>
+
+	</groups>
+  <test name="Test">
+    <classes>
+      <class name="Technical_Assessment_02.TestNGCase_1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

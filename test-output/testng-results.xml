@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-06T12:40:43 IST" name="Default suite" finished-at="2023-09-06T12:40:55 IST" duration-ms="12334">
+  <suite started-at="2023-09-07T13:15:17 IST" name="Default suite" finished-at="2023-09-07T13:15:26 IST" duration-ms="8936">
     <groups>
     </groups>
-    <test started-at="2023-09-06T12:40:43 IST" name="Default test" finished-at="2023-09-06T12:40:55 IST" duration-ms="12334">
-      <class name="jenkins_package.NewTest2">
-        <test-method signature="f()[pri:0, instance:jenkins_package.NewTest2@46cdf8bd]" started-at="2023-09-06T12:40:43 IST" name="f" finished-at="2023-09-06T12:40:55 IST" duration-ms="12279" status="PASS">
+    <test started-at="2023-09-07T13:15:17 IST" name="Default test" finished-at="2023-09-07T13:15:26 IST" duration-ms="8936">
+      <class name="Technical_Assessment_02.TestNGCase_03">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:17 IST" name="setUp" finished-at="2023-09-07T13:15:20 IST" duration-ms="3530" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- jenkins_package.NewTest2 -->
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase1()[pri:1, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:20 IST" name="testCase1" description="Validate HTML5 Forms book price" finished-at="2023-09-07T13:15:22 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2()[pri:2, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:22 IST" name="testCase2" description="Click on JS Data Structures and Algorithm" finished-at="2023-09-07T13:15:23 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase3()[pri:3, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:23 IST" name="testCase3" description="Click on HTML and validate the number of books" finished-at="2023-09-07T13:15:24 IST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method signature="testCase4()[pri:4, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:24 IST" name="testCase4" description="Sort by Price: Low to High" finished-at="2023-09-07T13:15:25 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method signature="testCase5()[pri:5, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:25 IST" name="testCase5" description="Validate Subscribe button presence" finished-at="2023-09-07T13:15:25 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:25 IST" name="tearDown" finished-at="2023-09-07T13:15:26 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Technical_Assessment_02.TestNGCase_03 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
