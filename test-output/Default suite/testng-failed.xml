@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Technical_Assessment_02.TestNGCase_03">
+      <class name="extend_report_7_9_2023.extebdreport_class">
         <methods>
-          <include name="testCase3"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="t3"/>
+          <include name="aftertest"/>
+          <include name="t2"/>
+          <include name="startReport"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- Technical_Assessment_02.TestNGCase_03 -->
+      </class> <!-- extend_report_7_9_2023.extebdreport_class -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,41 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-07T13:15:17 IST" name="Default suite" finished-at="2023-09-07T13:15:26 IST" duration-ms="8936">
+  <suite started-at="2023-09-07T15:53:51 IST" name="Default suite" finished-at="2023-09-07T15:53:51 IST" duration-ms="635">
     <groups>
     </groups>
-    <test started-at="2023-09-07T13:15:17 IST" name="Default test" finished-at="2023-09-07T13:15:26 IST" duration-ms="8936">
-      <class name="Technical_Assessment_02.TestNGCase_03">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:17 IST" name="setUp" finished-at="2023-09-07T13:15:20 IST" duration-ms="3530" status="PASS">
+    <test started-at="2023-09-07T15:53:51 IST" name="Default test" finished-at="2023-09-07T15:53:51 IST" duration-ms="635">
+      <class name="extend_report_7_9_2023.extebdreport_class">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="startReport" finished-at="2023-09-07T15:53:51 IST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCase1()[pri:1, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:20 IST" name="testCase1" description="Validate HTML5 Forms book price" finished-at="2023-09-07T13:15:22 IST" duration-ms="1701" status="PASS">
+        </test-method> <!-- startReport -->
+        <test-method signature="t1()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="t1" finished-at="2023-09-07T15:53:51 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:2, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:22 IST" name="testCase2" description="Click on JS Data Structures and Algorithm" finished-at="2023-09-07T13:15:23 IST" duration-ms="932" status="PASS">
+        </test-method> <!-- t1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="getResult" finished-at="2023-09-07T15:53:51 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=t1 status=SUCCESS method=extebdreport_class.t1()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase3()[pri:3, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:23 IST" name="testCase3" description="Click on HTML and validate the number of books" finished-at="2023-09-07T13:15:24 IST" duration-ms="790" status="PASS">
+        </test-method> <!-- getResult -->
+        <test-method signature="t2()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="t2" finished-at="2023-09-07T15:53:51 IST" duration-ms="1" status="FAIL">
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at junit.framework.Assert.assertTrue(Assert.java:27)
+at extend_report_7_9_2023.extebdreport_class.t2(extebdreport_class.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase3 -->
-        <test-method signature="testCase4()[pri:4, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:24 IST" name="testCase4" description="Sort by Price: Low to High" finished-at="2023-09-07T13:15:25 IST" duration-ms="716" status="PASS">
+        </test-method> <!-- t2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="getResult" finished-at="2023-09-07T15:53:51 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=t2 status=FAILURE method=extebdreport_class.t2()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase4 -->
-        <test-method signature="testCase5()[pri:5, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:25 IST" name="testCase5" description="Validate Subscribe button presence" finished-at="2023-09-07T13:15:25 IST" duration-ms="886" status="PASS">
+        </test-method> <!-- getResult -->
+        <test-method signature="t3()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="t3" finished-at="2023-09-07T15:53:51 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test skipped
+at extend_report_7_9_2023.extebdreport_class.t3(extebdreport_class.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase5 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Technical_Assessment_02.TestNGCase_03@5524cca1]" started-at="2023-09-07T13:15:25 IST" name="tearDown" finished-at="2023-09-07T13:15:26 IST" duration-ms="314" status="PASS">
+        </test-method> <!-- t3 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="getResult" finished-at="2023-09-07T15:53:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=t3 status=SKIP method=extebdreport_class.t3()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Technical_Assessment_02.TestNGCase_03 -->
+        </test-method> <!-- getResult -->
+        <test-method signature="t4()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="t4" finished-at="2023-09-07T15:53:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t4 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="getResult" finished-at="2023-09-07T15:53:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=t4 status=SUCCESS method=extebdreport_class.t4()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:extend_report_7_9_2023.extebdreport_class@402c4085]" started-at="2023-09-07T15:53:51 IST" name="aftertest" finished-at="2023-09-07T15:53:51 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- extend_report_7_9_2023.extebdreport_class -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
