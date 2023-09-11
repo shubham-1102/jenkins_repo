@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extend_report_7_9_2023.extebdreport_class">
+      <class name="demowebshop_8_9_2023.driverClassForDemoWebShop">
         <methods>
-          <include name="t3"/>
-          <include name="aftertest"/>
-          <include name="t2"/>
-          <include name="startReport"/>
-          <include name="getResult"/>
+          <include name="beforetestmethod"/>
+          <include name="f"/>
+          <include name="quitdriver"/>
         </methods>
-      </class> <!-- extend_report_7_9_2023.extebdreport_class -->
+      </class> <!-- demowebshop_8_9_2023.driverClassForDemoWebShop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
